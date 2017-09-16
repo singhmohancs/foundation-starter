@@ -1,8 +1,4 @@
-# Foundation for Sites Template
-
-**Please open all issues with this template on the main [Foundation for Sites](https://github.com/zurb/foundation-sites/issues) repo.**
-
-This is the basic starter project for [Foundation for Sites 6](http://foundation.zurb.com/sites). It includes a Sass compiler and a starter HTML file for you.
+# Foundation starter project
 
 ## Installation
 
@@ -21,28 +17,20 @@ Install the Foundation CLI with this command:
 npm install foundation-cli --global
 ```
 
-Use this command to set up a blank Foundation for Sites project with this template:
+### Project Setup
 
 ```bash
-foundation new --framework sites --template basic
-```
-
-The CLI will prompt you to give your project a name. The template will be downloaded into a folder with this name.
-
-### Manual Setup
-
-To manually set up the template, first download it with Git:
-
-```bash
-git clone https://github.com/zurb/foundation-sites-template projectname
+git clone https://github.com/singhmohancs/foundation-starter.git
 ```
 
 Then open the folder in your command line, and install the needed dependencies:
 
 ```bash
-cd projectname
+cd foundation-starter
 npm install
 bower install
 ```
 
 Finally, run `npm start` to run the Sass compiler. It will re-run every time you save a Sass file.
+
+To create compressed, production-ready assets, run `npm run build`.
